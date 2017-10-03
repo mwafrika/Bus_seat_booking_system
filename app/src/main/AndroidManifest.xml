@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.delaroystudios.bus_seat_booking_system">
+    android:versionCode ="1"
+    android:versionName = "1.0"
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main_activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetailsLogin" />
+        <activity android:name=".View_Booking" />
+        <activity android:name=".Contact_us" />
+        <activity android:name=".Bus_Information" />
+        <activity android:name=".pick_ticket" />
+        <activity android:name=".button_ticket" />
+        <activity android:name=".Book_ticket" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".Bus_info_admin" />
+        <activity android:name=".AdminLogin"></activity>
+    </application>
+
+</manifest>

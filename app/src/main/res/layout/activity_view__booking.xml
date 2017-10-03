@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196f3"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_booking"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textColor="#f39c12"
+
+        />
+    <Button
+        android:id="@+id/trans_id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/trans_id"
+        android:layout_gravity="center"
+        android:background="#2196f3"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/user_id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/user_id"
+        android:background="#2196f3"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/from_place"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/from_place"
+
+        android:layout_gravity="center"
+        android:background="#2196f3"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/to_place"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2196f3"
+        android:text="@string/to_place"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2196f3"
+        android:text="@string/date"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bus_id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bus_id"
+        android:layout_gravity="center"
+        android:background="#2196f3"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/fare"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/fare"
+        android:layout_gravity="center"
+        android:background="#2196f3"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/type"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/type"
+        android:layout_gravity="center"
+        android:background="#2196f3"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/quantity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/quantity"
+        android:layout_gravity="center"
+        android:background="#2196f3"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/total"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Total"
+        android:layout_gravity="center"
+        android:background="#2196f3"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+
+        />
+</LinearLayout>

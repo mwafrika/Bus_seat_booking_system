@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delaroystudios.bus_seat_booking_system.pick_ticket">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:text="@string/ticket"
+    android:textSize="32sp"
+   android:layout_gravity="center"
+    android:layout_marginBottom="30dp"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:text="@string/bus_id"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bus"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:text="@string/quantity"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/quantity"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.4"
+        android:firstDayOfWeek="2"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <CalendarView
+            android:id="@+id/calendar"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:firstDayOfWeek="2"
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/button8"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pick"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+        android:onClick="onClick"
+            />
+
+
+</LinearLayout>

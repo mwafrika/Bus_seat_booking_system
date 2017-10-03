@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.delaroystudios.bus_seat_booking_system.Main_activity_login"
+android:background="@drawable/bus1"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/menu1"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_marginStart="30dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textSize="20sp"
+            android:textColor="#9b59b6"
+            />
+
+        <Button
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textColor="#9b59b6"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact"
+            android:textSize="20sp"
+            android:textColor="#9b59b6"
+            />
+       <!--a verifier -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/menu1"
+        android:id="@+id/menu2"
+        android:layout_marginBottom="30dp"
+        >
+
+
+        <EditText
+            android:id="@+id/EditLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login"
+            android:textColorHint="#9b59b6"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:shadowColor="#0000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/menu2"
+        android:id="@+id/menu3"
+        android:layout_marginBottom="30dp"
+        >
+
+        <EditText
+            android:id="@+id/Edit_menu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/your_password"
+            android:textColor="#ffffff"
+            android:textColorHint="#9b59b6"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/menu3"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/role"
+        >
+        <TextView
+            android:id="@+id/T_role"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/role"
+            android:textSize="28sp"
+            android:textColor="#9b59b6"
+            />
+<Spinner
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinner1"
+
+    />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/men1"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/role"
+        android:gravity="center"
+        android:layout_marginStart="30dp"
+        >
+
+        <Button
+            android:id="@+id/log"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:onClick="logIn"
+            android:text="@string/login"
+            android:textColor="#9b59b6"
+            android:textColorHint="#9b59b6"
+            android:textSize="20sp"
+
+            />
+       <Button
+            android:id="@+id/sgn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:onClick="onClick"
+            android:text="@string/sign_in"
+            android:textColor="#9b59b6"
+            android:textColorHint="#9b59b6"
+            android:textSize="20sp"
+
+           />
+        
+  </LinearLayout>
+
+</RelativeLayout>

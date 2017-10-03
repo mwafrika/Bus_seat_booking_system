@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196f3"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="#f39c12"
+        />
+    <Button
+        android:id="@+id/details"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/details"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#90caf9"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/Book_ticket"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="@string/book_ticket"
+        android:background="#90caf9"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/View_booking"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/view_booking"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#90caf9"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_us"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#90caf9"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/About_us"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/about_us"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:background="#90caf9"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:layout_gravity="center"
+        android:background="#90caf9"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+</LinearLayout>

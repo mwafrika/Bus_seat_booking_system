@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Bus_seat_booking_system</string>
+    <string name="home">home</string>
+    <string name="about">About us</string>
+    <string name="contact">contact</string>
+    <string name="login">login</string>
+    <string name="Pass">Password</string>
+    <string name="your_password">your password</string>
+    <string name="role">Role</string>
+    <string name="country_prompt">Choose a country</string>
+    <string name="submit">submit</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="Login2">Login</string>
+    <string name="details">Details</string>
+    <string name="book_ticket">Book Ticket</string>
+    <string name="view_booking">View Booking</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Welcome User</string>
+    <string name="trans_id">transaction ID</string>
+    <string name="user_id">User ID</string>
+    <string name="from_place">From Place</string>
+    <string name="to_place">To Place</string>
+    <string name="date">Date</string>
+    <string name="bus_id">Bus ID</string>
+    <string name="fare">Fare</string>
+    <string name="type">Type</string>
+    <string name="quantity">Quantity</string>
+    <string name="Total">Total</string>
+    <string name="from">From</string>
+    <string name="To">To</string>
+    <string name="search">Search</string>
+    <string name="equantity">EQuantity</string>
+    <string name="place_to">PLACE TO</string>
+    <string name="departure">DEPARTURE</string>
+    <string name="arrival">ARRIVAL</string>
+    <string name="place_from">Place From</string>
+    <string name="bus_information">Bus Information</string>
+    <string name="arriv">arrival</string>
+    <string name="depart">departure</string>
+    <string name="pick_t">PICK TICKET</string>
+    <string name="ticket">PICK A TICKET(S)</string>
+    <string name="pick">PICK NOW A TICKET</string>
+    <string name="numbTick">CHOOSE NUMBER OF TICKET</string>
+    <string name="book_a_ticket">BOOK A TICKET</string>
+    <string name="transanction_id">Transanction ID</string>
+    <string name="book">BOOK</string>
+    <string name="balance">Balance</string>
+    <string name="sign">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="register_here">REGISTER HERE</string>
+    <string name="email_id">Email ID</string>
+    <string name="full_name">Full Name</string>
+    <string name="idUser">User ID</string>
+    <string name="phone_no">Phone no</string>
+    <string name="register">Register</string>
+    <string name="administrator">ADMINISTRATOR</string>
+    <string name="source" />
+    <string name="Source">source</string>
+    <string name="destination">destination</string>
+    <string name="hours">hours</string>
+    <string name="min">min</string>
+    <string name="min2">min</string>
+    <string name="add">Add</string>
+    <string name="username">User name</string>
+    <string name="conf_password">Confirm password</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="confirm_pass">confirm password</string>
+    <string-array name="roles_selection">
+        <item>Select</item>
+        <item>Admin</item>
+        <item>User</item>
+        <item>Agent</item>
+    </string-array>
+    <string-array name="source">
+        <item>Select the source</item>
+        <item>Goma</item>
+        <item>Bukavu</item>
+        <item>Rwanda</item>
+        <item>Burundi</item>
+    </string-array>
+    <string-array name="destination">
+        <item>Select the destination</item>
+        <item>Kinshasa</item>
+        <item>Kampala</item>
+        <item>Namibia</item>
+        <item>Nigeria</item>
+    </string-array>
+    <string-array name="Type">
+        <item>Select Type</item>
+        <item>Normal</item>
+        <item>Citizen</item>
+        <item>Senior</item>
+    </string-array>
+</resources>
